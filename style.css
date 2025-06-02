@@ -1,0 +1,90 @@
+body{
+     background-image: linear-gradient( 180.4deg,  rgba(0,6,10,1) 1%, rgba(1,190,237,1) 91.4% );;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cointainer{
+    border: 2px,solid,black;
+   
+    width: 80%;
+   background-image: linear-gradient( 89.2deg,  rgba(255,255,255,1) -1.3%, rgba(253,109,38,1) 281.6% );
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 500px;
+}
+.input1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.easy{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+  
+    border-radius: 50%;
+    border: 2px solid purple;
+     border: 2px solid rgb(4, 0, 15);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  background: conic-gradient(#063032 var(--progress-degree, 0%), #eedff0  0%);
+ 
+}
+.medium{
+    width: 100px;
+    height: 100px;
+     margin-top: 30px;  
+    border-radius: 50%;
+    border: 2px solid purple;
+     border: 2px solid rgb(4, 0, 15);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+     --progress-degree: 0%;
+  background: conic-gradient(#5b0566 var(--progress-degree, 0%), #13c8d2  0%);
+   background: conic-gradient(#063032 var(--progress-degree, 0%), #eedff0  0%);
+}
+
+.hard{
+    width: 100px;
+    height: 100px;
+   margin-top: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(4, 0, 15);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+     background: conic-gradient(#5b0566 var(--progress-degree, 0%), #13c8d2  0%);
+      background: conic-gradient(#063032 var(--progress-degree, 0%), #eedff0  0%);
+
+}
+.hard span{
+    position: relative;
+    z-index: 2;
+}
+.easy span{
+    position: relative;
+    z-index: 2;
+}
+.medium span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+
+}
